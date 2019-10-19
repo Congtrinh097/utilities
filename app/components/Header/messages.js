@@ -16,4 +16,8 @@ export default defineMessages({
     id: `${scope}.features`,
     defaultMessage: 'Features',
   },
+  audioconverter: {
+    id: `${scope}.audioconverter`,
+    defaultMessage: 'Audio Convert',
+  },
 });
