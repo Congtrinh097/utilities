@@ -22,5 +22,11 @@ const makeSelectAudioConverter = () =>
     substate => substate,
   );
 
+const makeText = () =>
+  createSelector(
+    selectAudioConverterDomain,
+    substate => substate.text,
+  );
+
 export default makeSelectAudioConverter;
-export { selectAudioConverterDomain };
+export { selectAudioConverterDomain, makeText };

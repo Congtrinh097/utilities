@@ -11,6 +11,10 @@ export const scope = 'app.containers.AudioConverter';
 export default defineMessages({
   header: {
     id: `${scope}.header`,
-    defaultMessage: 'This is the AudioConverter container!',
+    defaultMessage: 'Chuyển đổi văn bản thành audio!',
+  },
+  text: {
+    id: `${scope}.text`,
+    defaultMessage: 'Văn bản được chuyển đổi!',
   },
 });
